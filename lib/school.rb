@@ -3,8 +3,8 @@
 class School
   attr_reader(:name)
 
-  def initialize
-    
+  def initialize(name)
+    @name = name
   end
 
 end
